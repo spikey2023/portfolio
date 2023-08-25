@@ -96,11 +96,6 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-
   ];
   
   const experiences = [
@@ -200,30 +195,34 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Palestra Fitness",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based ecommerce shop that allows users to buy fitness related products.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "red-text-gradient",
         },
       ],
       image: carrent,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Project 2",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Description",
       tags: [
         {
           name: "react",
@@ -234,7 +233,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
@@ -242,12 +241,12 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Project 3",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Project 3 Description",
       tags: [
         {
-          name: "nextjs",
+          name: "nodejs",
           color: "blue-text-gradient",
         },
         {
@@ -255,7 +254,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
