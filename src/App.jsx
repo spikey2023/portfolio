@@ -25,6 +25,6 @@ const App = () => {
     </BrowserRouter>
   )
 }
-
+// 2:00
 export default App
  
