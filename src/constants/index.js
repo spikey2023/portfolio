@@ -69,10 +69,6 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -104,19 +100,16 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "FullStack Academy Graduate",
+      company_name: "FullStack Academy",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - September 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -125,11 +118,11 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Epic Clin Doc Analyst",
+      company_name: "Deaconess Health System",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2019 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -138,11 +131,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Phlebotomist",
+      company_name: "Deaconess Health System",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar 2019 - Nov 2019",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -151,11 +144,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Patient Care Technician",
+      company_name: "Deaconess Health System",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2018- Feb 2019",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -163,6 +156,19 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "Undergradute Researcher",
+      company_name: "University of Alabama at Birmingham",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "May 2015-  Aug 2015",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    }
   ];
   
   const testimonials = [
