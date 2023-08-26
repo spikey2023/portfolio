@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -14,11 +13,8 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    fs_academy,
+    dhs,
     carrent,
     jobit,
     tripguide,
@@ -102,7 +98,7 @@ import {
     {
       title: "FullStack Academy Graduate",
       company_name: "FullStack Academy",
-      icon: starbucks,
+      icon: fs_academy,
       iconBg: "#383E56",
       date: "March 2023 - September 2023",
       points: [
@@ -115,7 +111,7 @@ import {
     {
       title: "Epic Clin Doc Analyst",
       company_name: "Deaconess Health System",
-      icon: tesla,
+      icon: dhs,
       iconBg: "#E6DEDD",
       date: "Dec 2019 - Present",
       points: [
@@ -125,45 +121,6 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Phlebotomist",
-      company_name: "Deaconess Health System",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Mar 2019 - Nov 2019",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Patient Care Technician",
-      company_name: "Deaconess Health System",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "May 2018- Feb 2019",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Undergradute Researcher",
-      company_name: "University of Alabama at Birmingham",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "May 2015-  Aug 2015",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    }
   ];
   
   const testimonials = [

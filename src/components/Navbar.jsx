@@ -32,7 +32,7 @@ const Navbar = () => {
             h-9 object-contain" />
             <p className='text-white text-[18px]
             font-bold cursor-pointer flex'>Spike Yusuf <span
-              className = "sm:block hidden"> | Node.js 
+              className = "sm:block hidden">
               </span></p>
             </Link>
             <ul className="list-none hidden sm:flex

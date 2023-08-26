@@ -20,9 +20,26 @@ const Contact = () => {
 
   const [loading, setLoading ] = useState(false)
 
-  const handleChange = (e) => {}
+
+  const handleChange = (e) => {
+    const { name, value } = e.target
+
+    setForm({...form,[name]: value })
+  }
   
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true)
+
+// use emailjs to send email
+    // emailjs.send(
+    //   'serviceId',
+    //   'templateId',
+    //   {
+    //    fr 
+    //   }
+    // )
+  }
 
 
   return (
