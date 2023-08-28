@@ -49,6 +49,10 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
+    {
+      title: "FullStack Developer",
+      icon: creator,
+    }
   ];
   
   const technologies = [
@@ -81,10 +85,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -96,16 +96,15 @@ import {
   
   const experiences = [
     {
-      title: "FullStack Academy Graduate",
+      title: "FullStack Academy Student",
       company_name: "FullStack Academy",
       icon: fs_academy,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "March 2023 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed fullstack web applications using React.js, node.js and other related technologies.",
+        "Collaborated with team members including product managers, designers,  and other developers to create high-quality products.",
+        "Implemented responsive designs to ensure cross-browser and mobile compatibility.",
       ],
     },
     {
@@ -115,38 +114,52 @@ import {
       iconBg: "#E6DEDD",
       date: "Dec 2019 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "Phlebotomist",
+      company_name: "Deaconess Health System",
+      icon: web,
+      iconBg: "#E6DEDD",
+      date: "March 2019 - December 2019",
+      points: [
+      ],
+    },
+    {
+      title: "Patient Care Technician",
+      company_name: "Deaconess Health System",
+      icon: web,
+      iconBg: "#E6DEDD",
+      date: "April 2019 - Nov 2019",
+      points: [
+      ],
+    }
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+        "Spike makes beautiful websites. I highly recommend him to future clients.",
+      name: "Jeny Lee",
       designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      company: "Acme Foundation",
+      image: "https://randomuser.me/api/portraits/women/19.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Spike built us a website that truly captures our company's vision.",
+      name: "John Doe",
+      designation: "CEO",
+      company: "Ethyl Corp",
+      image: "https://randomuser.me/api/portraits/men/9.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        " Spike built us a great website, and now our stocks keep going up",
+      name: "Liza Bets",
+      designation: "CMO",
+      company: "Foo Stock",
+      image: "https://randomuser.me/api/portraits/women/13.jpg",
     },
   ];
   
@@ -154,7 +167,7 @@ import {
     {
       name: "Palestra Fitness",
       description:
-        "Web-based ecommerce shop that allows users to buy fitness related products.",
+        "Web-based ecommerce shop that allows users to buy fitness related products built in collaborations with peers",
       tags: [
         {
           name: "react",
@@ -170,7 +183,7 @@ import {
         },
         {
           name: "nodejs",
-          color: "red-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: carrent,
@@ -179,7 +192,7 @@ import {
     {
       name: "Project 2",
       description:
-        "Description",
+        "An invetory app to allow customers to manage their inventory for products",
       tags: [
         {
           name: "react",
@@ -200,14 +213,14 @@ import {
     {
       name: "Project 3",
       description:
-        "Project 3 Description",
+        " A 3d product landing page to showcase the main product with call to action to turn impressions to purchases.",
       tags: [
         {
-          name: "nodejs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
