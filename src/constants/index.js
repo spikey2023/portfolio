@@ -165,7 +165,7 @@ import {
     {
       name: "Palestra Attire",
       description:
-        "Web-based ecommerce shop that allows users to buy fitness related products built in collaborations with peers",
+        "Web-based ecommerce shop that allows users to buy fitness related products built in collaboration with peers",
       tags: [
         {
           name: "react",
