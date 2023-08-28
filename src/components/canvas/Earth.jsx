@@ -22,6 +22,8 @@ const Earth = () => {
 }
 
 
+
+
 const EarthCanvas = () => {
   return (
     <Canvas
@@ -51,4 +53,5 @@ const EarthCanvas = () => {
     </Canvas>
   )
 }
+
 export default EarthCanvas

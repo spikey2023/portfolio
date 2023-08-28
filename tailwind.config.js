@@ -12,6 +12,14 @@ module.exports = {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
       },
+      // colors: {
+      //   primary: "#03001C",
+      //   secondary: "#aaa6c3",// font color white
+      //   tertiary: "#5B8FB9",
+      //   "black-100": "#B6EADA",
+      //   "black-200": "#5B8FB9",// form color
+      //   "white-100": "#f3f3f3",
+      // },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
       },
