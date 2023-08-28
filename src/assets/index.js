@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.png";
 import fs_academy from "./company/fs_academy.png";
 import dhs from "./company/dhs.png";
 
-import carrent from "./carrent.png";
+import palestra from "./palestra.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -51,7 +51,7 @@ export {
   threejs,
   fs_academy,
   dhs,
-  carrent,
+  palestra,
   jobit,
   tripguide,
 };

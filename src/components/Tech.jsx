@@ -3,7 +3,7 @@ import { SectionWrapper } from "../hoc"
 import { technologies } from "../constants"
 import { motion } from  "framer-motion"
 
-import { fadeIn, textVariant } from "../utils/motion"
+import { textVariant } from "../utils/motion"
 import { styles } from "../styles"
 
 const Tech = () => {
@@ -15,6 +15,7 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}
         >Skills.</h2>
     </motion.div>
+
 
     <div className="mt-20 flex flex-row flex-wrap
     justify-center gap-10">

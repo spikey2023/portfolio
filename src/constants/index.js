@@ -10,12 +10,10 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     fs_academy,
     dhs,
-    carrent,
+    palestra,
     jobit,
     tripguide,
     threejs,
@@ -165,7 +163,7 @@ import {
   
   const projects = [
     {
-      name: "Palestra Fitness",
+      name: "Palestra Attire",
       description:
         "Web-based ecommerce shop that allows users to buy fitness related products built in collaborations with peers",
       tags: [
@@ -186,13 +184,14 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: palestra,
+      live_site_link: "https://palestraattire.onrender.com/",
+      source_code_link: "https://github.com/Nothing-But-Genius/grace-shopper",
     },
     {
       name: "Project 2",
       description:
-        "An invetory app to allow customers to manage their inventory for products",
+        "An inventory app to allow customers to manage their inventory for products",
       tags: [
         {
           name: "react",

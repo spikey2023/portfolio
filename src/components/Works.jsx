@@ -11,7 +11,7 @@ import { fadeIn, textVariant } from "../utils/motion"
 
 const ProjectCard = ({ 
   index, name, description, tags, image,
-source_code_link, }) => {
+source_code_link}) => {
 
   return(
     <motion.div variants={fadeIn("up", "spring",
@@ -26,13 +26,13 @@ source_code_link, }) => {
         className ="bg-tertiary p-5 rounded-2xl
         sm:w-[360px] w-full">
           <div className="relative w-full h-[230px]">
-            <img 
+              <img 
               src={image} 
               alt= {name}
               className="w-full h-full object-cover
               roudned-2xl"
               />
-
+      
               <div className="absolute inset-0 flex
               justify-end m-3 card-img_hover">
                 <div 
@@ -89,8 +89,7 @@ const Works = () => {
           [17px] max-w-3xl leading-[30px]"
           >
           Following projects demonstrate my skills 
-          and experience with javascript 
-          and different technology stacks. Each 
+          in javascript with different technology stacks. Each 
           projects have brief description with the links to
           the repositories. 
       </motion.p>
@@ -103,6 +102,7 @@ const Works = () => {
           index={index}
           {...project}
           />
+         
       ))}
 
     </div>
