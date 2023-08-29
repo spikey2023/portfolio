@@ -24,7 +24,7 @@ const ServiceCard= ({index, title, icon})=>{
                 scale: 1,
                 speed: 450,
               }}
-                className='bg-tertiary rounded-[20px]
+                className='bg-BF0000 rounded-[20px]
                 py-5 px-12 min-h-[280px] flex 
                 justify-evenly items-center flex-col'>
 
@@ -55,7 +55,7 @@ const About = () => {
       max-w-3xl leading-[30px]'
       >
         I'm a software developer with expertise
-        in Javascript and experienced working with 
+        in Javascript and experienced in working with 
          React, Node.js and Redux.      
     </motion.p>
 
