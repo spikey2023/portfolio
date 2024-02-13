@@ -5,5 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   build: { chunkSizeWarningLimit: 1600, },
-  base: "https://spikey2023.github.io/portfolio/",
+  commonjsOptions: {
+    transformMixedEsModules: true,
+    // include: [/linked-dep/, /node_modules/],
+  }, 
 })
