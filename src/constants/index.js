@@ -94,7 +94,16 @@ import {
   
   const experiences = [
     {
-      title: "FullStack Academy Student",
+      title: "Epic Clin Doc Analyst",
+      company_name: "Deaconess Health System",
+      icon: dhs,
+      iconBg: "#E6DEDD",
+      date: "Dec 2019 - Present",
+      points: [
+      ],
+    },
+    {
+      title: "FullStack Academy Graduate",
       company_name: "FullStack Academy",
       icon: fs_academy,
       iconBg: "#E6DEDD",
@@ -105,33 +114,6 @@ import {
         "Implemented responsive designs to ensure cross-browser and mobile compatibility.",
       ],
     },
-    {
-      title: "Epic Clin Doc Analyst",
-      company_name: "Deaconess Health System",
-      icon: dhs,
-      iconBg: "#E6DEDD",
-      date: "Dec 2019 - Present",
-      points: [
-      ],
-    },
-    {
-      title: "Phlebotomist",
-      company_name: "Deaconess Health System",
-      icon: web,
-      iconBg: "#E6DEDD",
-      date: "March 2019 - December 2019",
-      points: [
-      ],
-    },
-    {
-      title: "Patient Care Technician",
-      company_name: "Deaconess Health System",
-      icon: web,
-      iconBg: "#E6DEDD",
-      date: "April 2019 - Nov 2019",
-      points: [
-      ],
-    }
   ];
   
   const testimonials = [
