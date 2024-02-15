@@ -14,6 +14,9 @@ module.exports = {
         "white-100": "#f3f3f3",
         "day": "#fcbf49",
         "nav": "#f77f00",
+        "midday": "#f77f00",
+        "evening": "#001d3d",
+        "green" : "#B2E782",
       },
 
       boxShadow: {

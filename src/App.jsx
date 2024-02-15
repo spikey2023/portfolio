@@ -9,22 +9,20 @@ const App = () => {
   <div className ="relative z-0" >
     <div className ="bg-cover bg-no-repeat bg-center">
       <Navbar />
-      <div className='bg-day'>
+      <div className='bg-gradient-to-b from-day to-midday'>
         <Hero/>
       </div>
     </div>
-    <div className=''>
+    <div className=" bg-gradient-to-b from-midday to-evening via-black">
       <About />
-    </div>
     <Experience />
-    <div>
-    <Tech />
     </div>
-    <div>
+    <div className= "bg-gradient-to-b from-evening to-primary">
+    <Tech />
     <Works />
     </div>
     {/* <Feedbacks /> */}
-    <div className ="relative z-0">
+    <div className ="relative z-0 bg-primary">
       <Contact />
       <StarsCanvas />
     </div>
