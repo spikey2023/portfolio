@@ -13,7 +13,7 @@ const Tech = () => {
     <>
       <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText}
-        >Skills.</h2>
+        >My Tech Stack.</h2>
     </motion.div>
 
 
@@ -23,6 +23,9 @@ const Tech = () => {
         <div className="w-28 h-28" key={technology.
         name}>
           <BallCanvas icon = {technology.icon}/>
+          <div className="flex justify-center"> 
+          <div> {technology.name} </div>
+          </div>
           </div>
       ))}
     </div>
