@@ -12,10 +12,10 @@ function HOC() {
             variants={staggerContainer()}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once:true, amount: 0.25}}
+            // animation speed
+            viewport={{ once:true, amount: 0.10}}
             className={`${styles.padding} max-w-7xl
                 mx-auto relative z-0`}>
-
             {/* added scroll */}
             <span className='hash-span' id={idName}>
                 &nbsp;
