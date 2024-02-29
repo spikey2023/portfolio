@@ -10,7 +10,7 @@ import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 
 const ProjectCard = ({ 
-  index, name, description, tags, image,
+  index, name, description, tags, image, live_site_link,
 source_code_link}) => {
 
   return(
@@ -25,8 +25,10 @@ source_code_link}) => {
         }}
         className =" p-5 rounded-2xl
         sm:w-[360px] w-full">
-          <div className="relative w-full h-[230px]">
-              <img 
+          <div 
+          onClick={()=>window.open(live_site_link,"_blank")}
+          className="relative w-full h-[230px] cursor-pointer" >
+               <img 
               src={image} 
               alt= {name}
               className="w-full h-full object-cover
@@ -52,8 +54,10 @@ source_code_link}) => {
               </div>
           </div>
           <div className="mt-5">
-            <h3 className="text-white font-bold
-            text-[24px]">{name}</h3>
+            <h3 
+            onClick={()=>window.open(live_site_link,"_blank")}
+            className="text-white font-bold
+            text-[24px] cursor-pointer">{name}</h3>
             <p className="mt-2 text-secondary 
             text-[14px]">{description}</p>
           </div>
