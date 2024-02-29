@@ -197,7 +197,7 @@ import {
       source_code_link: "https://github.com/spikey2023/watchify-updated",
     },
     {
-      name: "Food Delivery App",
+      name: "Hamburglar",
       description:
         " A 3d product landing page to showcase the main product with call to action to turn impressions to purchases.",
       tags: [
@@ -215,7 +215,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/spikey2023/food-ordering-app",
     },
   ];
   
