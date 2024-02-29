@@ -26,7 +26,7 @@ import dhs from "./company/dhs.png";
 
 import palestra from "./palestra.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import watchify from "./watchify.png"
 
 export {
   logo,
@@ -53,5 +53,5 @@ export {
   dhs,
   palestra,
   jobit,
-  tripguide,
+  watchify,
 };

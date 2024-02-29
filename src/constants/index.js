@@ -15,7 +15,7 @@ import {
     dhs,
     palestra,
     jobit,
-    tripguide,
+    watchify,
     threejs,
   } from "../assets";
   
@@ -171,28 +171,33 @@ import {
       source_code_link: "https://github.com/Nothing-But-Genius/grace-shopper",
     },
     {
-      name: "Project 2",
+      name: "WATCHIFY",
       description:
-        "An inventory app to allow customers to manage their inventory for products",
+        "A web app that provides movie recommendations to users based on movie popularity and personalized user ratings.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "postgreSQL",
           color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: watchify,
+      live_site_link: "https://watchify-gqtf.onrender.com/",
+      source_code_link: "https://github.com/spikey2023/watchify-updated",
     },
     {
-      name: "Project 3",
+      name: "Food Delivery App",
       description:
         " A 3d product landing page to showcase the main product with call to action to turn impressions to purchases.",
       tags: [
@@ -209,7 +214,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: jobit,
       source_code_link: "https://github.com/",
     },
   ];
