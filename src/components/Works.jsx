@@ -32,7 +32,7 @@ source_code_link}) => {
               src={image} 
               alt= {name}
               className="w-full h-full object-cover
-              roudned-2xl"
+              rounded-2xl"
               />
       
               <div className="absolute inset-0 flex
