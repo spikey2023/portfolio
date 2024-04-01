@@ -1,33 +1,39 @@
 import  { BrowserRouter } from 'react-router-dom'
 
+import { Suspense } from 'react'
+import CanvasLoader from './components/Loader'
+
 import { About, Contact, Experience, Feedbacks, Hero, 
-  Navbar, Tech, Works, StarsCanvas } from './components'
+  Navbar, Tech, Works, StarsCanvas , Footer } from './components'
 
 const App = () => {
   return (
   <BrowserRouter>
-  <div className ="relative z-0" >
+  <div className ="relative z-0 scroll-smooth" >
     <div className ="bg-cover bg-no-repeat bg-center">
       <Navbar />
-      <div className='bg-gradient-to-b from-day to-midday'>
+      <div className='bg-gradient-to-b from-evening to-primary'>
         <Hero/>
       </div>
     </div>
-    <div className=" bg-gradient-to-b from-midday to-evening via-black">
+    <div className=" bg-gradient-to-b from-primary to-evening via-black">
       <About />
-    <Experience />
-    </div>
-    <div className= "bg-gradient-to-b from-evening to-primary">
     <Tech />
+    {/* <Experience /> */}
+    </div>
+    <div className= "bg-gradient-to-b from-evening to-primary via-primary">
     <Works />
     </div>
-    {/* <Feedbacks /> */}
     <div className ="relative z-0 bg-primary">
       <Contact />
       <StarsCanvas />
+      <Footer />
     </div>
     </div>
     </BrowserRouter>
+    
+
+
   )
 }
 
