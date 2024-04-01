@@ -1,5 +1,4 @@
 import {
-    mobile,
     backend,
     creator,
     web,
@@ -13,10 +12,15 @@ import {
     git,
     fs_academy,
     dhs,
-    palestra,
-    jobit,
+    amazonclone,
+    flavorburst,
     watchify,
     threejs,
+    typescript,
+    nextjs,
+    materialui,
+    supabase,
+    postgresql,
   } from "../assets";
   
   export const navLinks = [
@@ -87,15 +91,35 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
+      name: "Materiaul UI",
+      icon: materialui,
+    },
+    {
+      name: "Supabase",
+      icon: supabase,
+    },
+    {
+      name: "PostgreSQL",
+      icon: postgresql,
     },
   ];
   
   const experiences = [
     {
       title: "Epic Clin Doc Analyst",
-      company_name: "Deaconess Health System",
+      company_name: "",
       icon: dhs,
       iconBg: "#E6DEDD",
       date: "Dec 2019 - Present",
@@ -145,9 +169,9 @@ import {
   
   const projects = [
     {
-      name: "Palestra Attire",
+      name: "Amazon Clone",
       description:
-        "Web-based ecommerce shop that allows users to buy fitness related products built in collaboration with peers",
+        "Web-based ecommerce shop that allows users to search and buy products",
       tags: [
         {
           name: "react",
@@ -166,9 +190,9 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: palestra,
-      live_site_link: "https://palestraattire.onrender.com/",
-      source_code_link: "https://github.com/Nothing-But-Genius/grace-shopper",
+      image: amazonclone,
+      live_site_link: "https://spike-amazon-clone.vercel.app/",
+      source_code_link: "https://github.com/spikey2023/amazone-clone",
     },
     {
       name: "WATCHIFY",
@@ -197,9 +221,9 @@ import {
       source_code_link: "https://github.com/spikey2023/watchify-updated",
     },
     {
-      name: "Hamburglar",
+      name: "FlavorBurst Burgers",
       description:
-        " A 3d product landing page to showcase the main product with call to action to turn impressions to purchases.",
+        " A food ordering app that streamlines the process of selecting and customizing gourmet burgers from a menu.",
       tags: [
         {
           name: "react",
@@ -214,7 +238,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: flavorburst,
       source_code_link: "https://github.com/spikey2023/food-ordering-app",
     },
   ];
