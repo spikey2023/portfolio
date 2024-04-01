@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion"
-
+import { slideIn } from '../utils/motion'
 
 import { styles } from '../styles'
 import { services } from '../constants'
@@ -56,7 +56,7 @@ const About = () => {
         <p className= {styles.sectionSubText}
         > Introduction</p>
         <h2 className={styles.sectionHeadText}
-        >About.</h2>
+        >About me.</h2>
     </motion.div>
 
     <div className='container py-5 mx-auto flex gap-5 justify-between'>
@@ -68,26 +68,34 @@ const About = () => {
           className='mt-4 text-secondary text-[17px]
            leading-[30px]'
       >
-        Hey, my name is Choudhury Asif Ibne Yusuf, but I also go by Spike. 
-       I am a software developer based in Phoenix, Arizona, US. My journey into the 
+        Hey, my name is Choudhury Asif Ibne Yusuf, and I also go by Spike. 
+        I am a software engineer based in Phoenix, Arizona, US. My journey into the 
         tech world started with my hobby of building PCs and evolved as I gained experience 
         as an Epic Application Analyst for hospitals utilizing Epic's Electronic Health Record (EHR) system.
         I delved deeper into software development through self-study and eventually completed the Fullstack 
-        Academy Software Engineering program to further enhance my skills. I discovered that coding not only fulfills my 
+        Academy Software Engineering program to further enhance my skills. 
+        <br/>
+        I discovered that coding not only fulfills my 
         passion for problem-solving but also allows me to make a creative impact.
         I am always curious to learn more about new technologies and indulge in creative coding.
-
-       When I am not at the computer, you can usually find me hiking, spending time with my two cats, or experimenting with cooking new recipes.
+        <br/>
+        When I am not at the computer, you can usually find me hiking, spending time with my two cats, or experimenting with cooking new recipes.
     </motion.p>
     </div>
       {/* right */}
-      <div className='relative basis-1/4 pr-5'>
+      {/* <div className='relative basis-1/4 pr-5'> */}
+      <motion.div
+        variants={fadeIn("left","spring", 0.2, 0.75)}
+        className='relative basis-1/4 pr-5'
+        
+        >
         <img 
               src={profile} 
               alt= {profile}
               className="h-full rounded-full object-cover overflow-hidden"
               />  
-      </div>
+              </motion.div>
+      {/* </div> */}
      
     
     </div>
