@@ -15,7 +15,7 @@ module.exports = {
         "day": "#fcbf49",
         "nav": "#f77f00",
         "midday": "#f77f00",
-        "evening": "#001d3d",
+        "evening": "#001124",
         "green" : "#B2E782",
       },
 
