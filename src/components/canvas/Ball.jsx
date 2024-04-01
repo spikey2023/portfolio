@@ -12,11 +12,11 @@ const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl])
 
   return (
-    <Float speed={0.01} rotationIntensity={1} floatIntensity={1}>
+    <Float speed={0.09} rotationIntensity={1} floatIntensity={1}>
         <ambientLight intensity={0.75} />
         <directionalLight position={[0, 0, 1]} />
         <mesh castShadow receiveShadow scale={2.75}>
-          <icosahedronGeometry args={[1, 5]} />
+          <icosahedronGeometry args={[1, 7]} />
           <meshStandardMaterial 
             color="#D3D3D3"
             // color="#fff8eb"

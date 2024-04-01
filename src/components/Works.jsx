@@ -19,15 +19,15 @@ source_code_link}) => {
       {/* Create Card and tilt animation */}
       <Tilt
         options={{
-          max:45,
+          max:15,
           scale:1,
-          speed:450
+          speed:150,
         }}
         className =" p-5 rounded-2xl
         sm:w-[360px] w-full">
           <div 
           onClick={()=>window.open(live_site_link,"_blank")}
-          className="relative w-full h-[230px] cursor-pointer" >
+          className="relative w-full h-[230px] cursor-pointer use hover:scale-105" >
                <img 
               src={image} 
               alt= {name}
@@ -42,13 +42,14 @@ source_code_link}) => {
                     (source_code_link,"_blank")}
                   className="black-gradient w-10 h-10
                     rounded-full flex justify-center
-                    items-center cursor-pointer"
+                    items-center cursor-pointer use hover:scale-125"
                     >
                       <img 
                       src={github}
                       alt= "github"
                       className="w-1/2 h-1/2
-                      object-contain"
+                      object-contain
+                      "
                        />
                 </div>
               </div>
@@ -92,14 +93,14 @@ const Works = () => {
           className="mt-3 text-secondary text-
           [17px] max-w-3xl leading-[30px]"
           >
-          Following projects demonstrate my skills 
+          {/* Following projects demonstrate my skills 
           in javascript with different technology stacks. Each 
           projects have brief description with the links to
-          the repositories. 
+          the repositories.  */}
       </motion.p>
     </div>
 
-    <div className="mt-20 flex flex-wrap gap-7">
+    <div className="mt-5 flex flex-wrap gap-7">
       {projects.map((project,index) => (
         <ProjectCard 
           key={`project-${index}`}
