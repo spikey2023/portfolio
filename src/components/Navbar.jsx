@@ -43,7 +43,7 @@ const Navbar = () => {
                 key={link.id}
                 className={`${
                   active === link.title
-                    ? "text-white"
+                    ? "primary-color"
                     : "text-secondary"
                 } hover:text-white text-[18px]
                 font-medium cursor-pointer
